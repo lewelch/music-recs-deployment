@@ -5,10 +5,10 @@ from dataclasses import dataclass
 
 
 hide_debug_information()
-set_website_title(Author = "Ellie Welch", 
-                 Description = "",
-                 Planning = ["CS1_Final_Project_0.docx", "CS1_Final_Project_1.docx"],
-                 Link = ["https://github.com/lewelch/music-recs-deployment"])
+set_website_title(author = "Ellie Welch", 
+                 description = "",
+                 planning = ["CS1_Final_Project_0.docx", "CS1_Final_Project_1.docx"],
+                 link = ["https://github.com/lewelch/music-recs-deployment"])
 set_website_framed(False)
 
 music_data = "music_data_shortened.csv"
