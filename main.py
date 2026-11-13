@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 
 hide_debug_information()
-set_website_title()
+set_website_title("Music Recs")
 set_website_framed(False)
 
 music_data = "music_data_shortened.csv"
